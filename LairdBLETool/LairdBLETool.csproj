@@ -67,7 +67,9 @@
     <None Include="nrfjprog.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="nrfjprog.exe" />
+    <None Include="nrfjprog.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="XComp_BL600r2_8CF9_450E.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
